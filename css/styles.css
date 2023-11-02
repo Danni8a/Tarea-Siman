@@ -398,3 +398,17 @@ img{
     text-align: center;
     padding: .5rem;
 }
+
+/** Nosotros **/
+
+.nosotros {
+    text-align: center;
+    display: block;
+    margin-bottom: 5rem;
+}
+
+.nosotros p{
+    line-height: 2;
+    text-align: justify;
+}
+
