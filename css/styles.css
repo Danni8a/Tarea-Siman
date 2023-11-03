@@ -43,9 +43,16 @@ h2{
 
 h3{
     font-family: var(--fuenteTitulos);
-    font-size: 3rem;
-    text-shadow: 4px 4px 2px var(--blanco);
+    font-size: 2rem;
     color: var(--negro);
+    font-weight: 300;
+    margin: 0 0 2rem 0;
+    text-decoration: line-through;
+}
+
+h4{
+    font-size: 2rem;
+    margin: 0;
 }
 
 span{
@@ -53,10 +60,18 @@ span{
 }
 
 .contenedor{
-    max-width: 120rem;
-    margin: 0 auto;
-    width: 90%;
+    margin: 0 .5rem;
 }
+
+@media (min-width: 768px) {
+    .contenedor{
+        max-width: 120rem;
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+}
+
 a {
     font-size: 2rem;
     text-decoration: none;
@@ -430,14 +445,18 @@ img{
     margin-top: 5rem;
 }
 
+.mt h2{
+    text-align: center;
+}
     .adentro{
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         background-color: var(--blanco);
-        max-width: 34rem;
+        max-width: 35rem;
         border: .5rem solid var(--negro);
         border-radius: 1rem;
         margin: 2rem 3rem ;
+        max-height: 56rem;
     }
 
 
@@ -450,7 +469,6 @@ img{
     text-align: center;
     margin: 0;
 }
-
 .contenido-procut p{
     margin-bottom: 3rem;
 }
@@ -460,11 +478,11 @@ img{
     align-items: center;
 }
 .contenido-procut .btn{
-    margin: 2rem auto;
+    margin: 4rem auto 1rem auto;
     font-size: 2rem;
     padding: 1rem 1rem;
-    align-items: center;
 }
+
 
 .adentro img{
     margin-bottom: 2rem;
