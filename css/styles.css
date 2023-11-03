@@ -412,3 +412,60 @@ img{
     text-align: justify;
 }
 
+
+/** PROMOS **/ 
+
+
+@media (min-width: 768px) {
+    .modelos-promo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    
+}
+
+
+.mt{
+    margin-top: 5rem;
+}
+
+    .adentro{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        background-color: var(--blanco);
+        max-width: 34rem;
+        border: .5rem solid var(--negro);
+        border-radius: 1rem;
+        margin: 2rem 3rem ;
+    }
+
+
+.contenido-procut{
+    text-align: justify;
+    padding: 0rem 1rem 2rem 1rem;
+}
+
+.contenido-procut h2{
+    text-align: center;
+    margin: 0;
+}
+
+.contenido-procut p{
+    margin-bottom: 3rem;
+}
+
+.promo-contendor{
+    margin: 0 auto;
+    align-items: center;
+}
+.contenido-procut .btn{
+    margin: 2rem auto;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    align-items: center;
+}
+
+.adentro img{
+    margin-bottom: 2rem;
+}
